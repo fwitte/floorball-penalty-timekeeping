@@ -34,7 +34,6 @@ def layout():
         penalty_times_by_teams = timekeeping(preprocessed_events.copy())
         goals = preprocessed_events.loc[preprocessed_events["event"] == 0].copy()
         teams = list(penalty_times_by_teams.keys())
-        print(penalty_times_by_teams)
         create_result_layout(preprocessed_events, penalty_times_by_teams, goals, teams)
 
 
