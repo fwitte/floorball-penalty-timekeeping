@@ -1,0 +1,38 @@
+{
+    "test_terminate_running_minor_penalty": [
+        {"Team": "A", "player": 10, "event": 2, "minutes": 5, "seconds": 0},
+        {"Team": "B", "player": 5, "event": 0, "minutes": 5, "seconds": 30}
+    ],
+    "test_break_running_personal_penalty": [
+        {"Team": "A", "player": 93, "event": 3, "minutes": 2, "seconds": 30},
+        {"Team": "A", "player": 93, "event": 2, "minutes": 6, "seconds": 0}
+    ],
+    "test_example_1": [
+        {"Team": "A", "player": 93, "event": 4, "minutes": 2, "seconds": 30},
+        {"Team": "A", "player": 96, "event": 2, "minutes": 3, "seconds": 30},
+        {"Team": "B", "player": 75, "event": 0, "minutes": 4, "seconds": 0}
+    ],
+    "test_example_2": [
+        {"Team": "A", "player": 93, "event": 3, "minutes": 2, "seconds": 30},
+        {"Team": "B", "player": 75, "event": 0, "minutes": 5, "seconds": 0}
+    ],
+    "test_example_3": [
+        {"Team": "A", "player": 93, "event": 3, "minutes": 2, "seconds": 30},
+        {"Team": "B", "player": 75, "event": 1, "minutes": 4, "seconds": 0}
+    ],
+    "test_example_4": [
+        {"Team": "A", "player": 93, "event": 3, "minutes": 2, "seconds": 30},
+        {"Team": "A", "player": 93, "event": 5, "minutes": 2, "seconds": 30},
+        {"Team": "B", "player": 75, "event": 0, "minutes": 5, "seconds": 0}
+    ],
+    "test_example_5": [
+        {"Team": "A", "player": 93, "event": 3, "minutes": 2, "seconds": 30},
+        {"Team": "A", "player": 93, "event": 5, "minutes": 3, "seconds": 30},
+        {"Team": "B", "player": 75, "event": 0, "minutes": 5, "seconds": 0}
+    ],
+    "test_example_6": [
+        {"Team": "A", "player": 93, "event": 2, "minutes": 2, "seconds": 30},
+        {"Team": "B", "player": 75, "event": 2, "minutes": 3, "seconds": 0},
+        {"Team": "B", "player": 78, "event": 0, "minutes": 4, "seconds": 0}
+    ]
+}
