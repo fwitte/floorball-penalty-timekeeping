@@ -26,6 +26,17 @@ def layout():
 
     events = st.session_state.events
 
+    st.write("# Streamlit app for floorball penalty timeline plots")
+
+    st.write(
+        """Enter penalty-relevant events in the form below and create a
+        timeline of the penalties. The idea was born at a weekend referee
+        seminar and currenlty is a quick-and-dirty implementation. Your inputs
+        are not validated for consistency, so entering impossible events to the
+        table will results in wrong results."""
+    )
+    st.write("Make the app better by contributing [@github](https://github.com/fwitte/floorball-penalty-timekeeping).")
+
     create_input_form(Event, add_new_event)
 
     if len(events) > 0:

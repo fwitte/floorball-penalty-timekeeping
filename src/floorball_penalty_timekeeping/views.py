@@ -82,9 +82,7 @@ def create_result_layout(events, penalties, goals, teams):
 
         fig, ax = plt.subplots(1)
 
-        print(penalties)
         penalties_to_plot, plot_params = _prepare_penalty_times_for_plot(penalties, teams)
-        print(penalties_to_plot)
         goals_to_plot = _prepare_goals(goals, teams)
         plot_bench_penalties(ax, penalties_to_plot)
         plot_goals(ax, goals_to_plot)
@@ -187,7 +185,6 @@ def _prepare_penalty_times_for_plot(penalty_times_by_teams, teams):
         "min_time": min_time,
         "y_value_player_map": y_value_player_map,
     }
-    print(df_by_team)
     return df_by_team, plot_params
 
 
