@@ -1,4 +1,4 @@
-from floorball_penalty_timekeeping.app import layout
+from src.floorball_penalty_timekeeping.app import layout
 
-if __name__ == "name":
-    layout()
+
+layout()

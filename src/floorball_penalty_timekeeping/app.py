@@ -37,5 +37,6 @@ def layout():
         print(penalty_times_by_teams)
         create_result_layout(preprocessed_events, penalty_times_by_teams, goals, teams)
 
+
 if __name__ == "__main__":
     layout()
